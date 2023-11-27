@@ -1,0 +1,143 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #92c0fc;
+    color: #000000;
+    width: 50%;
+    position: fixed;
+    top: 10px;
+    left: 25%;
+    z-index: 0;
+    border-radius: 20px;
+    border: 8px solid #ccc ;
+    justify-content: center;
+    align-items: center;
+}
+.navbar p {
+    font-size: 20px;
+    margin-bottom: 10px; /* Spazio tra il paragrafo e il pulsante */
+}
+
+.navbar button {
+    background-color: #fff;
+    color: #254bf5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar button:hover {
+    background-color: #021670;
+    color: #fff;
+}
+
+.navbar h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sidebar {
+    background-color: #92c0fc;
+    color: #fff;
+    width: 300px;
+    z-index: 0;
+    position: fixed;
+    height: 100%;
+    overflow-x: hidden;
+    transition: 0.3s;
+    border-radius: 0px;
+    border-right: 8px solid #ccc ;
+    display: flex;
+    flex-direction: column; /* Imposta la direzione del flex container a colonna */
+    align-items: center; /* Allinea gli elementi orizzontalmente al centro */
+    justify-content: center; /* Allinea gli elementi verticalmente al centro */
+}
+
+
+.sidebar p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 40px; /* Spazio tra il paragrafo e il pulsante */
+}
+
+.sidebar button {
+    background-color: #fff;
+    color: #254bf5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.sidebar button:hover {
+    background-color: #1b2c79;
+    color: #fff;
+}
+
+.sidebar h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+}
+
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+}

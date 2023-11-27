@@ -1,0 +1,304 @@
+.background-image{
+  background: linear-gradient(to right, #3a76cf, #92c0fc, #011c25); /* Sostituisci questi colori con le tonalità di blu desiderate */
+  color: #000000; /* Colore del testo, puoi personalizzarlo */
+  border-radius: 10px; /* Bordo arrotondato */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombra */
+  /* Aggiungi altri stili necessari */
+  
+}
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  z-index: 1;
+  /* Altezza minima per riempire l'intera altezza della finestra */
+}
+
+
+.div-container {
+
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #92c0fc;
+  border: 8px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 0;
+}
+.containerPerOperazione {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  z-index: 1;
+ 
+}
+
+
+.error-banner {
+  background-color: rgb(255, 255, 255);
+  color: rgb(241, 0, 0);
+  padding: 10px;
+  width: 300px;
+  min-height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 0;
+  margin-left: 70px;
+  transform: translateY(100%);
+  animation: slideInFromBottom 1s ease-in-out forwards;
+}
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.div-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.div-container input[type="text"],
+.div-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.div-container button {
+  width: 60%;
+  padding: 10px;
+  background-color: #fff;
+  color: #254bf5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.div-container button:hover {
+  background-color: #1b2c79;
+    color: #fff;
+}
+
+#logout {
+  width: 60%;
+  padding: 10px;
+  background-color: #fff;
+  color: #254bf5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+#logout:hover {
+  background-color: #c22525;
+  color: #fff;
+}
+
+.div-button {
+  background-color: #28a745;
+}
+
+.div-button:hover {
+  background-color: #1e7e34;
+}
+
+.div-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.div-link:hover {
+  text-decoration: underline;
+}
+
+.table-container {
+  margin-left: 280px;
+  width: 80%;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+table {
+  width: 100%; /* Occupa tutta la larghezza del div delle tabelle */
+  border-collapse: collapse; /* Unisce i bordi delle celle */
+}
+
+table button {
+  width: 100%;
+  height: 30px;
+  background-color: #92c0fc;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+td {
+  padding: 4px;
+  text-align: center;
+  border: 2px solid #ccc;
+}
+
+tr {
+
+  background-color: white;
+  color: black;
+  font-weight: bold;
+
+}
+
+tr:hover {
+  background-color: #92c0fc;
+}
+
+th {
+  height: auto;
+  width: auto;
+  padding: 6px;
+  background-color: #1b2c79;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  border: px solid #000;
+}
+.button-1 {
+  width: 10%;
+  height: 30px;
+  background-color: #00035a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  position: relative; /* Per contenere gli elementi figli */
+}
+
+
+
+
+.div-h1 {  /*DIV PER TITOLO TABELLE*/
+  width: 400px;
+  height: 50px;
+  padding: 20px;
+  background-color: #00035a;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  margin-left: 530px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-h2 {  /*DIV PER TITOLO TABELLE*/
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  display: flex;
+}
+.button-2 {
+  width: 120px;
+  height: 40px;
+  background-color: #00035a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 20px;
+  position: relative; /* Per contenere gli elementi figli */
+}
+
+
+.left {
+  height: 40px;
+  width: 80%; /* Imposta la larghezza desiderata */
+}
+
+.right {
+  margin-bottom: 15px;
+  width: 50%; /* Imposta la larghezza desiderata */
+}
+
+/* Stili specifici per le due parti orizzontali, ad esempio colori di sfondo diversi */
+.left {
+  background-color: #83838300;
+}
+
+.right {
+  background-color: #83838300;
+}
+
+
+h3 {
+  margin: 0;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  width: 420px;
+  height: 400px;
+}
+
+
+/* Stile per il bottone OK all'interno del modal */
+.modal-content button {
+  background-color: #1b2c79;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #0f195b;
+}
+
+.right-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
